@@ -32,10 +32,6 @@ body {
     position: relative;
 }
 
-/* .Container {
-    position: relative;
-} */
-
 /* HEADING */
 
 .Heading {
@@ -79,17 +75,22 @@ body {
 
 .Green-B {
     margin-left: 13rem;
-    width: 46%;
+    width: 600px;
     height: 9px;
     background-color: var(--LC);
     border-style: none;
+    margin-top: -1rem;
 }
 
 .Description {
     font-size: 2rem;
-    max-width: 32ch;
+    max-width: 36ch;
     margin-top: 2rem;
     font-weight: 300;
+}
+
+.Big-1 {
+    display: block;
 }
 
 .pp {
@@ -105,7 +106,6 @@ body {
     z-index: -1;
     top: 4.8%;
     left: -12%;
-    height: 3.3%;
     transition: all 1s ease-in-out;
 }
 
@@ -162,7 +162,6 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 3rem;
-
 }
 
 .SL {
@@ -228,7 +227,7 @@ body {
 }
 
 .D_D {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     word-spacing: 15px;
     padding-top: 0.3rem;
@@ -238,6 +237,13 @@ body {
     scale: 1.05;
     cursor: cell;
 }
+
+.D_V_W:hover {
+    scale: 1.05;
+    text-shadow: 0 0 5px var(--TC), 0 0 1px var(--TC);
+    cursor: pointer;
+}
+
 
 /* CONTACT */
 
@@ -260,21 +266,23 @@ body {
     letter-spacing: 1px;
 }
 
+.C_Space {
+    display: block;
+}
+
 .C_I {
     width: 50%;
     display: flex;
     flex-direction: column;
-    padding-top: 5rem; 
+    padding-top: 5rem;
     align-items: end;
-    
 }
 
-.label {
+.C_wrap {
+    width: 55%;
     opacity: 0.5;
     font-size: 1.1rem;
-    margin-left: -29rem;
 }
-
 
 .C_I_I {
     all: unset;
@@ -282,14 +290,8 @@ body {
     border-bottom: 1px solid #ffffff;
     width: 60%;
     margin-bottom: 2rem;
-    color:  var(--TC);
+    color: var(--TC);
     font-size: 1.1rem;
-}
-
-.btn__Cnt {
-    width: 80%;
-    text-align: end;
-    margin-top: -5rem;
 }
 
 .Green_C {
@@ -315,4 +317,347 @@ body {
     border-top-left-radius: 10px;
     padding: 0 2rem 5rem;
     margin: 0 -2rem;
+}
+
+/* MEDIA ZEFT */
+
+@media (max-width: 1450px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* PERSONAL */
+
+    .Personal {
+        margin-top: 6rem;
+    }
+
+    .Greeting {
+        font-size: 6.4rem;
+        max-width: 14ch;
+    }
+
+    .Green-B {
+        margin-left: 0;
+        width: 500px;
+        margin-top: 0.01rem;
+    }
+
+    .Description {
+        font-size: 1.66rem;
+        max-width: 36ch;
+        margin-top: 3rem;
+    }
+
+    .med-1,
+    .med-2 {
+        display: block;
+    }
+
+    .pp {
+        width: 43%;
+        top: -1%;
+        right: 0;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -30%;
+    }
+
+    .Circle {
+        scale: 1.01;
+        top: 11.8%;
+        left: 94%;
+    }
+
+    .btn_Contact {
+        margin-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .Green {
+        width: 160px;
+        height: 2px;
+        margin-top: 1rem;
+    }
+
+    .Line {
+        margin-top: 5rem;
+    }
+
+    /* SKILLS */
+
+    .Skills {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+    }
+
+    .Rings_2 {
+        z-index: 1;
+        top: 30.3%;
+        right: -38%;
+    }
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 7rem;
+    }
+
+
+    .D_V {
+        display: flex;
+        padding-top: 2rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        gap: 20px;
+    }
+
+    .Green_V {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+    }
+
+
+    /* CONTACT */
+
+    .Contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .C_F {
+        width: 100%;
+        text-align: center;
+    }
+
+    .C_D {
+        max-width: 41ch;
+        margin: auto;
+    }
+
+    .C_I {
+        width: 100%;
+        align-items: center;
+    }
+
+    .C_I_I {
+        width: 70%;
+    }
+
+    .btn__Cnt {
+        text-align: end;
+        width: 70%;
+    }
+
+    .Rings_3 {
+        bottom: 3.7%;
+        left: -40%;
+    }
+
+    .Green_C {
+        width: 190px;
+    }
+
+    .B-C-S-C {
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .Description {
+        max-width: 35ch;
+    }
+}
+
+@media (max-width: 1090px) {
+    .Description {
+        max-width: 32ch;
+    }
+
+    .pp {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .Big-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1044px) {
+
+    .Greeting {
+        font-size: 6rem;
+    }
+
+    .Green-B {
+        width: 475px;
+        margin-top: -0.5rem;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    /* HEADING */
+
+    .Heading {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .nav_bar {
+        padding-right: 0rem;
+    }
+
+    /* PERSONAL */
+
+    .pp {
+        display: none;
+    }
+
+    .pp_S {
+        display: block;
+        position: absolute;
+        top: -1.9%;
+        right: 29%;
+        border-radius: 20px;
+        z-index: -1;
+    }
+
+    .Rings {
+        top: 1.8%;
+        left: -50%;
+        z-index: -2;
+        transform: skewX(-360deg);
+        scale: 1.5;
+    }
+
+    .Circle {
+        scale: 2;
+        top: 8%;
+        left: 94%;
+    }
+
+    .Personal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Greeting { /* font-size: 6rem;  */
+        max-width: 30ch;
+        margin-top: 50rem;
+
+    }
+
+    .med-1,
+    .med-2 {
+        display: none;
+    }
+
+    .Green-B {
+        margin-left: 10.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .Description {
+        width: 100%;
+        margin-inline: auto;
+        /* max-width: 1000ch; */
+        text-justify: justify;
+        /* border: 1px solid red; */
+        font-size: 2.2rem;
+    }
+
+    .Line {
+        width: 100%;
+    }
+
+    .btn_P {
+        letter-spacing: 7px;
+    }
+
+
+    /* SKILLS */
+
+    .Skills {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+        text-align: center;
+    }
+
+    .Line {
+        display: block;
+    }
+
+    .Rings_2 {
+        z-index: -2;
+        top: 29.3%;
+        right: -43%;
+        scale: 1.5;
+    }
+
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 7rem;
+    }
+
+    .Pj_Title {
+        font-size: 5rem;
+        /* border: 1px solid red; */
+        padding-top: 1.9rem;
+    }
+    .btn_Contact_Pj {
+        font-size: 2rem;
+    }
+
+    .Green_P{
+        width: 200px;
+    }
+
+    .Designs {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        grid-template-columns: repeat(1, 1fr);
+
+        row-gap: 4rem;
+    }
+
+    .D_T {
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+    
+    .D_D {
+        font-size: 2.2rem;
+        word-spacing: 25px;
+    }
+
+    .D_V {
+        font-size: 2rem;
+        gap: 3rem;
+    }
+
+    .Green_V {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+    }
+
+    /* CONTACT */
 }
