@@ -22,6 +22,7 @@ html {
 }
 
 body {
+    border: 1px solid red;
     font-family: "Space Grotesk", sans-serif;
     background-color: var(--BC);
     max-width: 75%;
@@ -479,6 +480,7 @@ body {
 }
 
 @media (max-width: 1090px) {
+
     .Description {
         max-width: 32ch;
     }
@@ -529,8 +531,10 @@ body {
     .pp_S {
         display: block;
         position: absolute;
+        width: 300px;
+        height: 700px;
         top: -1.9%;
-        right: 29%;
+        right: 30%;
         border-radius: 20px;
         z-index: -1;
     }
@@ -545,7 +549,7 @@ body {
 
     .Circle {
         scale: 2;
-        top: 8%;
+        top: 5%;
         left: 94%;
     }
 
@@ -556,10 +560,12 @@ body {
         align-items: center;
     }
 
-    .Greeting { /* font-size: 6rem;  */
-        max-width: 30ch;
-        margin-top: 50rem;
-
+    .Greeting {
+        max-width: 14ch;
+        margin-top: 30rem;
+        font-size: 5rem;
+        line-height: 70px;
+        text-align: center;
     }
 
     .med-1,
@@ -568,16 +574,13 @@ body {
     }
 
     .Green-B {
-        margin-left: 10.5rem;
-        margin-top: -0.5rem;
+        margin-left: 11.5rem;
+        margin-top: 0.5rem;
+        width: 390px;
     }
 
     .Description {
-        width: 100%;
-        margin-inline: auto;
-        /* max-width: 1000ch; */
-        text-justify: justify;
-        /* border: 1px solid red; */
+        text-align: center;
         font-size: 2.2rem;
     }
 
@@ -604,7 +607,7 @@ body {
 
     .Rings_2 {
         z-index: -2;
-        top: 29.3%;
+        top: 26.5%;
         right: -43%;
         scale: 1.5;
     }
@@ -616,16 +619,20 @@ body {
         margin-top: 7rem;
     }
 
+    .Pj_Wrap {
+        margin-top: -5rem;
+    }
+
     .Pj_Title {
         font-size: 5rem;
-        /* border: 1px solid red; */
         padding-top: 1.9rem;
     }
+
     .btn_Contact_Pj {
         font-size: 2rem;
     }
 
-    .Green_P{
+    .Green_P {
         width: 200px;
     }
 
@@ -641,7 +648,7 @@ body {
         font-size: 3rem;
         padding-top: 1rem;
     }
-    
+
     .D_D {
         font-size: 2.2rem;
         word-spacing: 25px;
@@ -658,6 +665,296 @@ body {
         height: 2px;
         border-radius: 10px;
     }
+}
+
+@media (max-width: 900px) {
+
+    .Rings_2 {
+        top: 27%;
+        right: -59%;
+        transform: skewX(200deg);
+    }
+
+    .pp_S {
+        width: 295px;
+        height: 690px;
+    }
+}
+
+@media (max-width: 808px) {
+
+    /* PERSONAL */
+
+    body+.pp_s {
+        margin: 0 auto;
+    }
+
+    .pp_S {
+        right: 27%;
+        width: 290px;
+        height: 670px;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -60%;
+    }
+
+    .Circle {
+        scale: 1.5;
+    }
+
+    .Greeting {
+        font-size: 4rem;
+        margin-top: 28rem;
+    }
+
+    .Green-B {
+        width: 320px;
+        margin-left: 9rem;
+        margin-top: -0.1rem;
+    }
+
+    .Rings_2 {
+        top: 28.5%;
+        scale: 1.2;
+        transform: skewX(-360deg);
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 4rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 1.5rem;
+    }
+
+    .Green_P {
+        width: 160px;
+    }
+
+    .D_T {
+        font-size: 2.4rem;
+    }
+
+    .D_D {
+        font-size: 2rem;
+    }
+
+    .D_V {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
 
     /* CONTACT */
+    .C_T {
+        font-size: 5rem;
+    }
+
+    .C_Space {
+        display: none;
+    }
+
+    .C_D {
+        max-width: 35ch;
+    }
+
+    .Rings_3 {
+        bottom: 3.1%;
+        left: -60%;
+    }
 }
+
+
+
+@media (max-width: 750px) {
+
+    .pp_S {
+        right: 25%;
+        width: 285px;
+        height: 660px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .pp_S {
+        right: 23%;
+        height: 650px;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -70%;
+    }
+
+    .Greeting {
+        margin-top: 26rem;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 661px) {
+    .Greeting {
+        font-size: 3.5rem;
+        line-height: 55px;
+    }
+
+    .Green-B {
+        width: 275px;
+        margin-left: 8rem;
+        margin-top: -0.2rem;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -80%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .pp_S {
+        right: 21%;
+        height: 640px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Personal */
+
+    .pp_S {
+        right: 19%;
+        height: 630px;
+    }
+
+    .Rings {
+        top: 2.4%;
+        left: -90%;
+    }
+
+    .Greeting {
+        font-size: 3rem;
+        margin-top: 27rem;
+        line-height: 40px;
+    }
+
+    .Green-B {
+        width: 240px;
+        margin-left: 7rem;
+        margin-top: 0.1rem;
+        height: 7px;
+    }
+
+    .Description {
+        font-size: 1.4rem;
+    }
+
+    /* SKILLS */
+
+    .Rings_2 {
+        top: 30.8%;
+        right: -79%;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 3rem;
+        padding-top: 2.5rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 1rem;
+    }
+
+    .Green_P {
+        width: 120px;
+    }
+
+    .D_T {
+        font-size: 2rem;
+    }
+
+    .D_D {
+        font-size: 1.5rem;
+    }
+
+    .D_V {
+        font-size: 1.4rem;
+        gap: 3rem;
+    }
+
+    /* CONTACT */
+
+    .C_T {
+        font-size: 3rem;
+    }
+
+    .C_D {
+        max-width: 35ch;
+        font-size: 1.3rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.6%;
+        left: -85%;
+    }
+
+    .btn__C {
+        font-size: 1rem;
+    }
+
+    .Green_C {
+        width: 140px;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media (max-width: 516px) {
+
+    /* PERSONAL */
+
+    .pp_S {
+        right: 14%;
+        height: 630px;
+    }
+
+    .Greeting {
+        font-size: 2.5rem;
+        margin-inline: auto;
+    }
+
+    .Green-B {
+        width: 199px;
+        margin-left: 5.5rem;
+    }
+
+    /* PROJECT */
+
+
+    .Pj_Title {
+        font-size: 2.5rem;
+        padding-top: 2.7rem;
+    }
+
+    .D_T {
+        font-size: 1.5rem;
+    }
+
+    .D_D {
+        font-size: 1.5rem;
+    }
+
+    .D_V {
+        font-size: 1.4rem;
+        gap: 3rem;
+    }
+}
+
+/* COMPLETE @MEDIA 516px   START FROM PROJECT*/
