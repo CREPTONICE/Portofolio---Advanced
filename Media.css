@@ -1,0 +1,1239 @@
+@media (min-width: 1451px) {
+
+    *{
+        font-size: clamp (1rem, 2.5vh, 2rem);
+    }
+
+    .Line {
+        margin-top: 10rem;
+    }
+
+    .Skills {
+        text-align: center;
+    }
+
+    .D_T {
+        text-align: center;
+    }
+
+    .D_D {
+        text-align: center;
+    }
+
+    .Contact {
+        padding: 5rem;
+    }
+
+    .C_I_I {
+        width: 70%;
+    }
+
+    .C_Space {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1450px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* PERSONAL */
+
+    .Personal {
+        margin-top: 6rem;
+    }
+
+    .Greeting {
+        font-size: 6.4rem;
+        max-width: 14ch;
+    }
+
+    .Green-B {
+        margin-left: 0;
+        width: 500px;
+        margin-top: 0.01rem;
+    }
+
+    .Description {
+        font-size: 1.66rem;
+        max-width: 36ch;
+        margin-top: 3rem;
+    }
+
+    .med-1,
+    .med-2 {
+        display: block;
+    }
+
+    .pp {
+        width: 43%;
+        top: -1%;
+        right: 0;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -30%;
+    }
+
+    .Circle {
+        scale: 1.01;
+        top: 11.8%;
+        left: 94%;
+    }
+
+    .btn_Contact {
+        margin-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .Green {
+        width: 160px;
+        height: 2px;
+        margin-top: 1rem;
+    }
+
+    .Line {
+        margin-top: 5rem;
+    }
+
+    /* SKILLS */
+
+    .Skills {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+        text-align: center;
+    }
+
+    .Rings_2 {
+        z-index: 1;
+        top: 30.3%;
+        right: -38%;
+    }
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 7rem;
+    }
+
+
+    .D_V {
+        display: flex;
+        padding-top: 2rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        gap: 20px;
+    }
+
+    .Green_V {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+    }
+
+
+    /* CONTACT */
+
+    .Contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .C_F {
+        width: 100%;
+        text-align: center;
+    }
+
+    .C_D {
+        max-width: 41ch;
+        margin: auto;
+    }
+
+    .C_I {
+        width: 100%;
+        align-items: center;
+    }
+
+    .C_I_I {
+        width: 70%;
+    }
+
+    .btn__Cnt {
+        text-align: end;
+        width: 70%;
+    }
+
+    .Rings_3 {
+        bottom: 3.7%;
+        left: -40%;
+    }
+
+    .Green_C {
+        width: 190px;
+    }
+
+    .B-C-S-C {
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media (max-width: 1440px) {
+
+    .btn_Contact_Pj {
+        font-size: 2.5rem;
+    }
+
+    .Green_P {
+        width: 240px;
+    }
+
+    .Rings_2 {
+        top: 29.6%;
+        right: -26%;
+    }
+
+    .Rings_3 {
+        left: -20%;
+    }
+}
+
+@media (max-width:1280px) {
+    .Rings_2 {
+        top: 30.6%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .Description {
+        max-width: 35ch;
+    }
+}
+
+@media (max-width: 1090px) {
+
+    .Description {
+        max-width: 32ch;
+    }
+
+    .pp {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .Big-1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1044px) {
+
+    .Greeting {
+        font-size: 6rem;
+    }
+
+    .Green-B {
+        width: 475px;
+        margin-top: -0.5rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .Rings_2 {
+        top: 32.7%;
+    }
+
+    .Rings_3 {
+        bottom: 4%;
+        left: -30%;
+    }
+}
+
+@media (max-width: 990px) {
+
+    /* HEADING */
+
+    .Heading {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1rem;
+    }
+
+    .nav_bar {
+        padding-right: 0rem;
+    }
+
+    /* PERSONAL */
+
+    .pp {
+        display: none;
+    }
+
+    .pp_S {
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 700px;
+        top: -1.9%;
+        right: 30%;
+        border-radius: 20px;
+        z-index: -1;
+    }
+
+    .Rings {
+        top: 1.8%;
+        left: -50%;
+        z-index: -2;
+        transform: skewX(-360deg);
+        scale: 1.5;
+    }
+
+    .Circle {
+        scale: 2;
+        top: 5%;
+        left: 94%;
+    }
+
+    .Personal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Greeting {
+        max-width: 14ch;
+        margin-top: 30rem;
+        font-size: 5rem;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    .med-1,
+    .med-2 {
+        display: none;
+    }
+
+    .Green-B {
+        margin-left: 11.5rem;
+        margin-top: 0.5rem;
+        width: 390px;
+    }
+
+    .Description {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .Line {
+        width: 100%;
+    }
+
+    .btn_P {
+        letter-spacing: 7px;
+    }
+
+
+    /* SKILLS */
+
+    .Skills {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 3rem;
+        text-align: center;
+    }
+
+    .Line {
+        display: block;
+    }
+
+    .Rings_2 {
+        z-index: -2;
+        top: 26.5%;
+        right: -43%;
+        scale: 1.5;
+    }
+
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 7rem;
+    }
+
+    .Pj_Wrap {
+        margin-top: -5rem;
+    }
+
+    .Pj_Title {
+        font-size: 5rem;
+        padding-top: 1.9rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 2rem;
+    }
+
+    .Green_P {
+        width: 200px;
+    }
+
+    .Designs {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+        grid-template-columns: repeat(1, 1fr);
+
+        row-gap: 4rem;
+    }
+
+    .D_T {
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+
+    .D_D {
+        font-size: 2.2rem;
+        word-spacing: 25px;
+    }
+
+    .D_V {
+        font-size: 2rem;
+        gap: 3rem;
+    }
+
+    .Green_V {
+        margin-top: 0.5rem;
+        width: 100%;
+        height: 2px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .Rings_2 {
+        top: 27%;
+        right: -59%;
+        transform: skewX(200deg);
+    }
+
+    .pp_S {
+        width: 295px;
+        height: 690px;
+    }
+}
+
+@media (max-width: 828px) {
+
+    .Rings {
+        top: 1.8%;
+        left: -55%;
+    }
+
+    .Rings_2 {
+        top: 28.2%;
+        scale: 1.2;
+    }
+
+    .Green-B {
+        width: 360px;
+        margin-left: 11.5rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.1%;
+        left: -60%;
+    }
+}
+
+@media (max-width: 808px) {
+
+    /* PERSONAL */
+
+    .pp_S {
+        right: 27%;
+        width: 290px;
+        height: 670px;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -60%;
+    }
+
+    .Circle {
+        scale: 1.5;
+    }
+
+    .Greeting {
+        font-size: 4rem;
+        margin-top: 28rem;
+    }
+
+    .Green-B {
+        width: 310px;
+        margin-left: 9rem;
+        margin-top: 0rem;
+    }
+
+    .Rings_2 {
+        top: 28.5%;
+        scale: 1.2;
+        transform: skewX(-360deg);
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 4rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 1.5rem;
+    }
+
+    .Green_P {
+        width: 160px;
+    }
+
+    .D_T {
+        font-size: 2.4rem;
+    }
+
+    .D_D {
+        font-size: 2rem;
+    }
+
+    .D_V {
+        font-size: 1.5rem;
+        gap: 3rem;
+    }
+
+    /* CONTACT */
+    .C_T {
+        font-size: 5rem;
+    }
+
+    .C_Space {
+        display: none;
+    }
+
+    .C_D {
+        max-width: 35ch;
+    }
+
+    .Rings_3 {
+        bottom: 3.1%;
+        left: -60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Rings_2 {
+        top: 29.5%;
+    }
+
+    .Green-B {
+        width: 300px;
+        margin-left: 9.5rem;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .pp_S {
+        right: 25%;
+        width: 285px;
+        height: 660px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .pp_S {
+        right: 23%;
+        height: 650px;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -70%;
+    }
+
+    .Greeting {
+        margin-top: 26rem;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 661px) {
+    .Greeting {
+        font-size: 3.5rem;
+        line-height: 55px;
+    }
+
+    .Green-B {
+        width: 275px;
+        margin-left: 8rem;
+        margin-top: -0.2rem;
+    }
+
+    .Rings {
+        top: 2%;
+        left: -80%;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .pp_S {
+        right: 21%;
+        height: 640px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Personal */
+
+    .pp_S {
+        right: 19%;
+        height: 630px;
+    }
+
+    .Rings {
+        top: 2.4%;
+        left: -90%;
+    }
+
+    .Greeting {
+        font-size: 3rem;
+        margin-top: 27rem;
+        line-height: 40px;
+    }
+
+    .Green-B {
+        width: 240px;
+        margin-left: 7rem;
+        margin-top: 0.1rem;
+        height: 7px;
+    }
+
+    .Description {
+        font-size: 1.4rem;
+    }
+
+    /* SKILLS */
+
+    .Rings_2 {
+        top: 30.8%;
+        right: -79%;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 3rem;
+        padding-top: 2.5rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 1rem;
+    }
+
+    .Green_P {
+        width: 120px;
+    }
+
+    .D_T {
+        font-size: 2rem;
+    }
+
+    .D_D {
+        font-size: 1.5rem;
+    }
+
+    .D_V {
+        font-size: 1.4rem;
+        gap: 3rem;
+    }
+
+    /* CONTACT */
+
+    .C_T {
+        font-size: 3rem;
+    }
+
+    .C_D {
+        max-width: 35ch;
+        font-size: 1.3rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.6%;
+        left: -85%;
+    }
+
+    .btn__C {
+        font-size: 1rem;
+    }
+
+    .Green_C {
+        width: 140px;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .pp_S {
+        right: 13%;
+    }
+
+    .Green-B {
+        width: 240px;
+        margin-left: 6rem;
+    }
+
+    .Rings {
+        top: 2.4%;
+        left: -120%;
+    }
+
+    .Rings_2 {
+        top: 33%;
+        right: -115%;
+    }
+
+    .Rings_3 {
+        left: -100%;
+    }
+
+}
+
+@media (max-width: 516px) {
+
+    /* PERSONAL */
+
+    .pp_S {
+        right: 14%;
+    }
+
+    .Greeting {
+        font-size: 2.5rem;
+        margin-inline: auto;
+        margin-top: 27.5rem;
+    }
+
+    .Green-B {
+        width: 198px;
+        margin-left: 5.7rem;
+    }
+
+    .Rings {
+        top: 2.8%;
+    }
+
+    .Rings_2 {
+        right: -120%;
+    }
+
+    .Circle {
+        scale: 1.2;
+    }
+
+    /* SKILLS */
+
+    .SL {
+        font-size: 2.5rem;
+    }
+
+    .Y {
+        font-size: 1.5rem;
+    }
+
+    .Rings_2 {
+        top: 31.7%;
+        right: -100%;
+    }
+
+    /* PROJECT */
+
+
+    .Pj_Title {
+        font-size: 2.5rem;
+        padding-top: 2.7rem;
+    }
+
+    .D_T {
+        font-size: 1.5rem;
+    }
+
+    .D_D {
+        font-size: 1.5rem;
+    }
+
+    .D_V {
+        font-size: 1rem;
+    }
+
+    /* CONTACT */
+
+    .Contact {
+        margin-top: -4rem;
+    }
+
+    .C_T {
+        font-size: 2.5rem;
+    }
+
+    .C_D {
+        max-width: 30ch;
+        font-size: 1rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.35%;
+        left: -100%;
+    }
+
+    .btn__C {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .pp_S {
+        right: 12.5%;
+    }
+
+    .Greeting {
+        margin-top: 27rem;
+    }
+
+    .Rings_2 {
+        top: 32%;
+        right: -115%;
+    }
+
+    .Rings_3 {
+        bottom: 3.6%;
+        left: -110%;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .pp_S {
+        top: -2.1%;
+        right: 8%;
+    }
+
+    .Green-B {
+        width: 199px;
+        margin-left: 5rem;
+    }
+
+    .Rings {
+        left: -135%;
+    }
+
+    .Rings_2 {
+        top: 33.4%;
+        right: -120%;
+    }
+
+    .Rings_3 {
+        left: -125%;
+    }
+
+    .Circle {
+        scale: 1.1;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.9rem;
+    }
+
+    .Green_P {
+        width: 110px;
+    }
+
+    .D_D {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .pp_S {
+        top: -2.5%;
+        right: 8%;
+    }
+
+    .Greeting {
+        font-size: 2rem;
+        margin-top: 25.5rem;
+    }
+
+    .Green-B {
+        width: 157px;
+        margin-left: 4.5rem;
+        height: 6px;
+        margin-top: -0.2rem;
+    }
+
+    .Description {
+        font-size: 1.15rem;
+    }
+
+    .Rings {
+        left: -150%;
+    }
+
+    .Rings_2 {
+        top: 32.8%;
+        right: -125%;
+    }
+
+    .Rings_3 {
+        left: -134%;
+        bottom: 3.7%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .pp_S {
+        top: -2.4%;
+        right: 4.9%;
+    }
+
+    .Circle {
+        scale: 0.94;
+    }
+
+    .Rings_2 {
+        top: 33.4%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -139%;
+        bottom: 3.8%;
+    }
+
+    .D_D_D {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .pp_S {
+        right: 4.5%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .pp_S {
+        right: 2%;
+    }
+
+    .Rings {
+        left: -156.5%;
+    }
+
+    .Circle {
+        display: none;
+    }
+
+    .Rings_2 {
+        top: 34%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -155%;
+    }
+
+    .D_T {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .Rings {
+        left: -156.5%;
+    }
+
+    .Rings_2 {
+        top: 34%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -155%;
+    }
+}
+
+@media (max-width: 385px) {
+    .pp_S {
+        right: 0.5%;
+    }
+
+    .Rings {
+        left: -165%;
+    }
+
+    .Rings_2 {
+        top: 34.8%;
+        right: -160%;
+    }
+
+    .Rings_3 {
+        left: -165%;
+    }
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 4rem;
+    }
+
+    .Pj_Title {
+        font-size: 1.8rem;
+        padding-top: 3.1rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.7rem;
+    }
+
+    .Green_P {
+        width: 90px;
+    }
+
+    .D_T {
+        font-size: 1.2rem;
+    }
+
+    .D_D {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .pp_S {
+        right: -1.5%;
+    }
+
+    .Rings {
+        left: -175%;
+    }
+
+    .Rings_2 {
+        top: 35.1%;
+        right: -160%;
+    }
+
+    .Rings_3 {
+        left: -170%;
+    }
+
+    .Description {
+        font-size: 1.14rem;
+    }
+
+    .Designs {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 366px) {
+
+    .pp_S {
+        right: -3%;
+        top: -2.8%;
+    }
+
+    .Rings {
+        left: -180%;
+    }
+
+    .Rings_2 {
+        top: 35.3%;
+        right: -170%;
+    }
+
+    .Rings_3 {
+        left: -170%;
+        bottom: 4.1%;
+    }
+
+    .Greeting {
+        font-size: 1.68rem;
+        line-height: 30px;
+    }
+
+    .Description {
+        font-size: 0.93rem;
+    }
+
+    .Green-B {
+        width: 135px;
+        margin-left: 3.8rem;
+        height: 5px;
+        margin-top: -0.1rem;
+    }
+
+
+    .btn_P {
+        font-size: 1.35rem;
+    }
+
+    .Green_Personal {
+        margin-top: 5px;
+        width: 184.5px;
+    }
+
+    .as {
+        letter-spacing: -0.5px;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 1.5rem;
+        padding-top: 3.1rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.6rem;
+    }
+
+    .Green_P {
+        width: 83px;
+        margin-top: 0.3rem;
+    }
+
+    .D_T {
+        font-size: 1.13rem;
+        text-align: center;
+    }
+
+    .D_D {
+        font-size: 0.84rem;
+    }
+
+    .D_V {
+        font-size: 0.81rem;
+    }
+
+
+
+    /* CONTACT */
+
+    .C_D {
+        font-size: 0.76rem;
+        letter-spacing: 0px;
+    }
+
+    .btn__C {
+        font-size: 0.89rem;
+    }
+
+    .Green_C {
+        width: 130px;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .pp_S {
+        right: -13%;
+        top: -2.8%;
+    }
+
+    .Rings {
+        top: 3%;
+        left: -220%;
+    }
+
+    .Rings_2 {
+        top: 36.9%;
+        right: -190%;
+    }
+
+    .Rings_3 {
+        left: -205%;
+        bottom: 4.1%;
+    }
+
+    .Green-B {
+        width: 135px;
+        margin-left: 3.3rem;
+        height: 4px;
+        margin-top: -0.1rem;
+    }
+
+}
+
+@media (max-width: 316px) {
+
+        .Greeting {
+            font-size: 1.5rem;
+        }
+
+        .Green-B {
+            width: 120px;
+            margin-left: 3.4rem;
+            height: 5px;
+            margin-top: -0.1rem;
+        }
+
+        .btn_P {
+            font-size: 1rem;
+        }
+
+        .D_D {
+            word-spacing: 20px;
+        }
+
+        .D_V {
+            font-size: 0.8rem;
+        }
+}
+
+@media (max-width: 290px) {
+
+    .Greeting {
+        font-size: 1.45rem;
+    }
+}

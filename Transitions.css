@@ -1,0 +1,44 @@
+
+/* HEADING */
+
+.Links:hover {
+    scale: 1.1;
+}
+
+/* PERSONAL */
+
+.Rings:hover {
+    transform: skew(40deg);
+    scale: 1.1;
+}
+
+.Circle:hover {
+    scale: 1.1;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.btn_Contact:hover {
+    text-shadow: 0 0 5px var(--TC), 0 0 1px var(--TC);
+}
+
+/* SKILLS */
+
+.Rings_2:hover,
+.Rings_3:hover {
+    transform: skew(-40deg);
+    scale: 1.1;
+}
+
+/* PROJECTS */
+
+.D_img:hover {
+    scale: 1.05;
+    cursor: cell;
+}
+
+.D_V_W:hover {
+    scale: 1.05;
+    text-shadow: 0 0 5px var(--TC), 0 0 1px var(--TC);
+    cursor: pointer;
+}
