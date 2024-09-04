@@ -19,10 +19,10 @@
 
 html {
     scroll-behavior: smooth;
+    transition: all 0.3s ease;
 }
 
 body {
-    border: 1px solid red;
     font-family: "Space Grotesk", sans-serif;
     background-color: var(--BC);
     max-width: 75%;
@@ -394,6 +394,7 @@ body {
     .Skills {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 3rem;
+        text-align: center;
     }
 
     .Rings_2 {
@@ -472,6 +473,32 @@ body {
 
 }
 
+@media (max-width: 1440px) {
+
+    .btn_Contact_Pj {
+        font-size: 2.5rem;
+    }
+
+    .Green_P {
+        width: 240px;
+    }
+
+    .Rings_2 {
+        top: 29.6%;
+        right: -26%;
+    }
+
+    .Rings_3 {
+        left: -20%;
+    }
+}
+
+@media (max-width:1280px) {
+    .Rings_2 {
+        top: 30.6%;
+    }
+}
+
 @media (max-width: 1200px) {
 
     .Description {
@@ -506,6 +533,17 @@ body {
         margin-top: -0.5rem;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .Rings_2 {
+        top: 32.7%;
+    }
+
+    .Rings_3 {
+        bottom: 4%;
+        left: -30%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -767,7 +805,34 @@ body {
     }
 }
 
+@media (max-width: 828px) {
 
+    .Rings {
+        top: 1.8%;
+        left: -55%;
+    }
+
+    .Rings_2 {
+        top: 28.2%;
+        scale: 1.2;
+    }
+
+    .Green-B {
+        width: 380px;
+        margin-left: 11rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.1%;
+        left: -60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Rings_2 {
+        top: 29.5%;
+    }
+}
 
 @media (max-width: 750px) {
 
@@ -916,23 +981,77 @@ body {
 
 }
 
+@media (max-width: 520px) {
+
+    .pp_S {
+        right: 13%;
+    }
+
+    .Green-B {
+        width: 240px;
+        margin-left: 6rem;
+    }
+
+    .Rings {
+        top: 2.4%;
+        left: -120%;
+    }
+
+    .Rings_2 {
+        top: 33%;
+        right: -115%;
+    }
+
+    .Rings_3 {
+        left: -100%;
+    }
+
+}
+
 @media (max-width: 516px) {
 
     /* PERSONAL */
 
     .pp_S {
         right: 14%;
-        height: 630px;
     }
 
     .Greeting {
         font-size: 2.5rem;
         margin-inline: auto;
+        margin-top: 27.5rem;
     }
 
     .Green-B {
-        width: 199px;
-        margin-left: 5.5rem;
+        width: 198px;
+        margin-left: 5.7rem;
+    }
+
+    .Rings {
+        top: 2.8%;
+    }
+
+    .Rings_2 {
+        right: -120%;
+    }
+
+    .Circle {
+        scale: 1.2;
+    }
+
+    /* SKILLS */
+
+    .SL {
+        font-size: 2.5rem;
+    }
+
+    .Y {
+        font-size: 1.5rem;
+    }
+
+    .Rings_2 {
+        top: 31.7%;
+        right: -100%;
     }
 
     /* PROJECT */
@@ -952,9 +1071,422 @@ body {
     }
 
     .D_V {
-        font-size: 1.4rem;
-        gap: 3rem;
+        font-size: 1rem;
+    }
+
+    /* CONTACT */
+
+    .Contact {
+        margin-top: -4rem;
+    }
+
+    .C_T {
+        font-size: 2.5rem;
+    }
+
+    .C_D {
+        max-width: 30ch;
+        font-size: 1rem;
+    }
+
+    .Rings_3 {
+        bottom: 3.35%;
+        left: -100%;
+    }
+
+    .btn__C {
+        margin-top: 1rem;
     }
 }
 
-/* COMPLETE @MEDIA 516px   START FROM PROJECT*/
+@media (max-width: 500px) {
+
+    .pp_S {
+        right: 12.5%;
+    }
+
+    .Greeting {
+        margin-top: 27rem;
+    }
+
+    .Rings_2 {
+        top: 32%;
+        right: -115%;
+    }
+
+    .Rings_3 {
+        bottom: 3.6%;
+        left: -110%;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .pp_S {
+        top: -2.1%;
+        right: 8%;
+    }
+
+    .Green-B {
+        width: 199px;
+        margin-left: 5rem;
+    }
+
+    .Rings {
+        left: -135%;
+    }
+
+    .Rings_2 {
+        top: 33.4%;
+        right: -120%;
+    }
+
+    .Rings_3 {
+        left: -125%;
+    }
+
+    .Circle {
+        scale: 1.1;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.9rem;
+    }
+
+    .Green_P {
+        width: 110px;
+    }
+
+    .D_D {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .pp_S {
+        top: -2.5%;
+        right: 8%;
+    }
+
+    .Greeting {
+        font-size: 2rem;
+        margin-top: 25.5rem;
+    }
+
+    .Green-B {
+        width: 157px;
+        margin-left: 4.5rem;
+        height: 6px;
+        margin-top: -0.2rem;
+    }
+
+    .Description {
+        font-size: 1.15rem;
+    }
+
+    .Rings {
+        left: -150%;
+    }
+
+    .Rings_2 {
+        top: 32.8%;
+        right: -125%;
+    }
+
+    .Rings_3 {
+        left: -134%;
+        bottom: 3.7%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .pp_S {
+        top: -2.4%;
+        right: 4.9%;
+    }
+
+    .Circle {
+        scale: 0.94;
+    }
+
+    .Rings_2 {
+        top: 33.4%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -139%;
+        bottom: 3.8%;
+    }
+
+    .D_D_D {
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .pp_S {
+        right: 4.5%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .pp_S {
+        right: 2%;
+    }
+
+    .Rings {
+        left: -156.5%;
+    }
+
+    .Circle {
+        display: none;
+    }
+
+    .Rings_2 {
+        top: 34%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -155%;
+    }
+
+    .D_T {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 414px) {
+
+    .Rings {
+        left: -156.5%;
+    }
+
+    .Rings_2 {
+        top: 34%;
+        right: -129%;
+    }
+
+    .Rings_3 {
+        left: -155%;
+    }
+}
+
+@media (max-width: 385px) {
+    .pp_S {
+        right: 0.5%;
+    }
+
+    .Rings {
+        left: -165%;
+    }
+
+    .Rings_2 {
+        top: 34.8%;
+        right: -160%;
+    }
+
+    .Rings_3 {
+        left: -165%;
+    }
+
+    /* PROJECT */
+
+    .Projects {
+        margin-top: 4rem;
+    }
+
+    .Pj_Title {
+        font-size: 1.8rem;
+        padding-top: 3.1rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.7rem;
+    }
+
+    .Green_P {
+        width: 90px;
+    }
+
+    .D_T {
+        font-size: 1.2rem;
+    }
+
+    .D_D {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .pp_S {
+        right: -1.5%;
+    }
+
+    .Rings {
+        left: -175%;
+    }
+
+    .Rings_2 {
+        top: 35.1%;
+        right: -160%;
+    }
+
+    .Rings_3 {
+        left: -170%;
+    }
+
+    .Description {
+        font-size: 1.14rem;
+    }
+
+    .Designs {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 366px) {
+
+    .pp_S {
+        right: -3%;
+        top: -2.8%;
+    }
+
+    .Rings {
+        left: -180%;
+    }
+
+    .Rings_2 {
+        top: 35.3%;
+        right: -170%;
+    }
+
+    .Rings_3 {
+        left: -170%;
+        bottom: 4.1%;
+    }
+
+    .Greeting {
+        font-size: 1.68rem;
+        line-height: 30px;
+    }
+
+    .Description {
+        font-size: 0.93rem;
+    }
+
+    .Green-B {
+        width: 135px;
+        margin-left: 3.8rem;
+        height: 5px;
+        margin-top: -0.1rem;
+    }
+
+
+    .btn_P {
+        font-size: 1.35rem;
+    }
+
+    .Green_Personal {
+        margin-top: 5px;
+        width: 184.5px;
+    }
+
+    .as {
+        letter-spacing: -0.5px;
+    }
+
+    /* PROJECT */
+
+    .Pj_Title {
+        font-size: 1.5rem;
+        padding-top: 3.1rem;
+    }
+
+    .btn_Contact_Pj {
+        font-size: 0.6rem;
+    }
+
+    .Green_P {
+        width: 83px;
+        margin-top: 0.3rem;
+    }
+
+    .D_T {
+        font-size: 1.13rem;
+        text-align: center;
+    }
+
+    .D_D {
+        font-size: 0.84rem;
+    }
+
+    .D_V {
+        font-size: 0.81rem;
+    }
+
+    
+
+    /* CONTACT */
+
+    .C_D {
+        font-size: 0.76rem;
+        letter-spacing: 0px;
+    }
+
+    .btn__C {
+        font-size: 0.89rem;
+    }
+
+    .Green_C {
+        width: 130px;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .pp_S {
+        right: -13%;
+        top: -2.8%;
+    }
+
+    .Rings {
+        top: 3%;
+        left: -220%;
+    }
+
+    .Rings_2 {
+        top: 36.9%;
+        right: -190%;
+    }
+
+    .Rings_3 {
+        left: -205%;
+        bottom: 4.1%;
+    }
+
+    .Green-B {
+        width: 135px;
+        margin-left: 3.3rem;
+        height: 4px;
+        margin-top: -0.1rem;
+    }
+
+}
